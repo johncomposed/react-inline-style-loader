@@ -1,0 +1,32 @@
+{
+  "name": "react-inline-style-loader",
+  "version": "0.1.0",
+  "description": "experimental webpack loader that converts css to react-inline-style-friendly objects",
+  "main": "index.js",
+  "scripts": {
+    "pretest": "webpack --config ./test/sample/webpack.config.js",
+    "test": "tap test/test.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/johncomposed/react-inline-style-loader.git"
+  },
+  "author": "John Williams",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/johncomposed/react-inline-style-loader/issues"
+  },
+  "dependencies": {
+    "cssom": "^0.3.1"
+  },
+  "keywords": [
+    "webpack",
+    "loader",
+    "react",
+    "css"
+  ],
+  "devDependencies": {
+    "tap": "^1.2.0",
+    "webpack": "^1.9.10"
+  }
+}
